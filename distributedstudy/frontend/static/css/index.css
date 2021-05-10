@@ -1,0 +1,124 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#main {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+#login, #register {
+  color: white;
+}
+
+body {
+  padding-top: 9vh;
+  width: 100%;
+  min-height: 90vh;
+  height: 100vh;
+}
+
+#login-form, #homepage-container, #test  {
+  /*border: black solid 5px;*/
+}
+
+#homepage-container, #login-row{
+  height: 100%;
+  justify-content: center;
+}
+
+#login-row {
+  width: 100vw;
+  margin-top: 8vh;
+  height: 30vh;
+  justify-content: center;
+
+}
+
+#login-form {
+  display: flex;
+  justify-content: center;
+  width: 10vw;
+  height: 30vh;
+
+}
+
+#brain {
+  box-sizing: border-box;
+  margin-top: 5vh;
+  width: 20%;
+  height: 30%;
+
+}
+
+#brain-home {
+  box-sizing: border-box;
+  margin-top: 5%;
+  width: 30%;
+  height: 30%;
+}
+
+#test {
+
+  width: 40%;
+}
+
+#nav-bar-div {
+
+}
+
+#side-nav {
+
+  border: black solid 2px;
+  height: 100vh;
+  background-color: lightgrey;
+  max-width: 30vw;
+}
+
+#nav-container {
+
+  height: 90vh;
+}
+
+#row1 {
+  max-width: 30vw;
+  display: flex;
+  flex-direction: column;
+  max-height: 85%;
+  border: black solid 2px;
+}
+
+#side-nav-button {
+  margin-top: auto;
+}
+
+#img-col {
+
+  padding-left: 35vw;
+  padding-bottom: 10vh;
+}
+
+#home-content {
+  height: 90vh;
+}
+
+#join-form {
+  max-width: 20%;
+}
+
+#coming-soon {
+  box-sizing: border-box;
+  width: 25vw;
+}
